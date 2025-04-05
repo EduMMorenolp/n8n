@@ -1,37 +1,37 @@
-![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)
+![Imagen de banner](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)
 
-# n8n - Secure Workflow Automation for Technical Teams
+# n8n - Automatización de flujos de trabajo segura para equipos técnicos
 
-n8n is a workflow automation platform that gives technical teams the flexibility of code with the speed of no-code. With 400+ integrations, native AI capabilities, and a fair-code license, n8n lets you build powerful automations while maintaining full control over your data and deployments.
+**n8n** es una plataforma de automatización de flujos de trabajo que le da a los equipos técnicos la flexibilidad del código con la velocidad del no-code. Con más de **400 integraciones**, capacidades de IA nativas y una licencia *fair-code*, n8n te permite crear potentes automatizaciones mientras mantenés el control total de tus datos y despliegues.
 
-![n8n.io - Screenshot](https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot-readme.png)
+![n8n.io - Captura de pantalla](https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot-readme.png)
 
-## Key Capabilities
+## 🧠 Capacidades principales
 
-- **Code When You Need It**: Write JavaScript/Python, add npm packages, or use the visual interface
-- **AI-Native Platform**: Build AI agent workflows based on LangChain with your own data and models
-- **Full Control**: Self-host with our fair-code license or use our [cloud offering](https://app.n8n.cloud/login)
-- **Enterprise-Ready**: Advanced permissions, SSO, and air-gapped deployments
-- **Active Community**: 400+ integrations and 900+ ready-to-use [templates](https://n8n.io/workflows)
+- **Codificá solo cuando lo necesites**: Escribí JavaScript o Python, agregá paquetes npm o usá la interfaz visual.
+- **Plataforma con IA nativa**: Creá flujos de trabajo con agentes de IA basados en LangChain con tus propios datos y modelos.
+- **Control total**: Podés alojarlo vos mismo con nuestra licencia *fair-code*, o usar nuestra [versión en la nube](https://app.n8n.cloud/login).
+- **Listo para empresas**: Soporte para permisos avanzados, SSO e implementaciones aisladas (*air-gapped*).
+- **Comunidad activa**: Más de 400 integraciones y más de 900 [plantillas listas para usar](https://n8n.io/workflows).
 
-## Quick Start
+## ⚡ Inicio rápido
 
-Try n8n instantly with [npx](https://docs.n8n.io/hosting/installation/npm/) (requires [Node.js](https://nodejs.org/en/)):
+Probaló al instante con [npx](https://docs.n8n.io/hosting/installation/npm/) (requiere [Node.js](https://nodejs.org/en/)):
 
-```
+```bash
 npx n8n
 ```
 
-Or deploy with [Docker](https://docs.n8n.io/hosting/installation/docker/):
+O desplegalo con [Docker](https://docs.n8n.io/hosting/installation/docker/):
 
 ```
 docker volume create n8n_data
 docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
 ```
 
-Access the editor at http://localhost:5678
+Accedé al editor en: http://localhost:5678
 
-### Para tener persistencia
+### 💾 Para tener persistencia
 ```bash
 docker run -d --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
 ```
@@ -55,7 +55,7 @@ Ver si está corriendo:
 docker ps
 ```
 
-## Resources
+## 📚 Recursos
 
 - 📚 [Documentation](https://docs.n8n.io)
 - 🔧 [400+ Integrations](https://n8n.io/integrations)
@@ -64,33 +64,42 @@ docker ps
 - 👥 [Community Forum](https://community.n8n.io)
 - 📖 [Community Tutorials](https://community.n8n.io/c/tutorials/28)
 
-## Support
+## 💬 Soporte
 
-Need help? Our community forum is the place to get support and connect with other users:
+¿Necesitás ayuda? El foro de la comunidad es el mejor lugar para recibir soporte y conectar con otros usuarios:
 [community.n8n.io](https://community.n8n.io)
 
-## License
+## 📜 Licencia
 
-n8n is [fair-code](https://faircode.io) distributed under the [Sustainable Use License](https://github.com/n8n-io/n8n/blob/master/LICENSE.md) and [n8n Enterprise License](https://github.com/n8n-io/n8n/blob/master/LICENSE_EE.md).
+**n8n** es [fair-code](https://faircode.io) y se distribuye bajo la [Licencia de Uso Sostenible](https://github.com/n8n-io/n8n/blob/master/LICENSE.md) y la [Licencia Empresarial de n8n](https://github.com/n8n-io/n8n/blob/master/LICENSE_EE.md).
 
-- **Source Available**: Always visible source code
-- **Self-Hostable**: Deploy anywhere
-- **Extensible**: Add your own nodes and functionality
+- **Código abierto (Source Available)**: Siempre podés ver el código fuente.
+- **Auto-hospedable**: Podés desplegarlo donde quieras.
+- **Extensible**: Podés agregar tus propios nodos y funcionalidades.
 
-[Enterprise licenses](mailto:license@n8n.io) available for additional features and support.
+Existen [licencias empresariales](mailto:license@n8n.io) disponibles con características adicionales y soporte técnico.
 
-Additional information about the license model can be found in the [docs](https://docs.n8n.io/reference/license/).
+Más información sobre el modelo de licencias en la [documentación](https://docs.n8n.io/reference/license/).
 
-## Contributing
+## 🤝 Contribuir
 
-Found a bug 🐛 or have a feature idea ✨? Check our [Contributing Guide](https://github.com/n8n-io/n8n/blob/master/CONTRIBUTING.md) to get started.
+¿Encontraste un bug 🐛 o tenés una idea ✨ para una nueva funcionalidad?  
+Consultá nuestra [Guía para contribuir](https://github.com/n8n-io/n8n/blob/master/CONTRIBUTING.md) para empezar.
 
-## Join the Team
+## 💼 Unite al equipo
 
-Want to shape the future of automation? Check out our [job posts](https://n8n.io/careers) and join our team!
+¿Querés ayudar a definir el futuro de la automatización?  
+Mirá nuestras [ofertas laborales](https://n8n.io/careers) y sumate a nuestro equipo.
 
-## What does n8n mean?
+## ❓ ¿Qué significa "n8n"?
 
-**Short answer:** It means "nodemation" and is pronounced as n-eight-n.
+**Respuesta corta:** Significa “nodemation” y se pronuncia *n-eight-n*.
 
-**Long answer:** "I get that question quite often (more often than I expected) so I decided it is probably best to answer it here. While looking for a good name for the project with a free domain I realized very quickly that all the good ones I could think of were already taken. So, in the end, I chose nodemation. 'node-' in the sense that it uses a Node-View and that it uses Node.js and '-mation' for 'automation' which is what the project is supposed to help with. However, I did not like how long the name was and I could not imagine writing something that long every time in the CLI. That is when I then ended up on 'n8n'." - **Jan Oberhauser, Founder and CEO, n8n.io**
+**Respuesta larga:**  
+"Me hacen esta pregunta bastante seguido (más de lo que esperaba), así que decidí que lo mejor era responderla acá. Mientras buscaba un buen nombre para el proyecto con dominio disponible, me di cuenta rápidamente de que todos los buenos ya estaban tomados.  
+Así que, al final, elegí 'nodemation'.  
+‘node-’ porque usa una vista en nodos y está basado en Node.js, y ‘-mation’ por ‘automation’ (automatización), que es justamente lo que el proyecto busca facilitar.  
+Sin embargo, no me gustaba lo largo que era el nombre y no me imaginaba escribiéndolo completo cada vez en la línea de comandos.  
+Así fue como llegué a ‘n8n’."
+
+— **Jan Oberhauser, Fundador y CEO de n8n.io**
