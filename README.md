@@ -31,6 +31,30 @@ docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n
 
 Access the editor at http://localhost:5678
 
+### Para tener persistencia
+```bash
+docker run -d --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
+```
+
+### 🔁 Para controlarlo después:
+
+Iniciar nuevamente (si está detenido):
+```bash
+docker start n8n
+```
+Parar:
+```bash
+docker stop n8n
+```
+Eliminarlo (si querés):
+```bash
+docker rm n8n
+```
+Ver si está corriendo:
+```bash
+docker ps
+```
+
 ## Resources
 
 - 📚 [Documentation](https://docs.n8n.io)
